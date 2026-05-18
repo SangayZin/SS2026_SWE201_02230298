@@ -92,7 +92,7 @@ const HomeScreen: React.FC = () => {
             </View>
           ))}
 
-          <Text style={styles.sectionTitle} marginTop={24}>
+          <Text style={[styles.sectionTitle, { marginTop: 24 }] }>
             Quick Actions
           </Text>
 

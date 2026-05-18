@@ -1,18 +1,16 @@
 import { Ionicons } from '@expo/vector-icons';
-import { useNavigation } from '@react-navigation/native';
 import React, { useEffect, useRef } from 'react';
 import {
-    Animated,
-    Pressable,
-    ScrollView,
-    StyleSheet,
-    Text,
-    View
+  Animated,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View
 } from 'react-native';
 import type { CategoriesStackScreenProps } from '../../navigation/types';
 
-const CategoriesListScreen: React.FC<CategoriesStackScreenProps<'CategoriesList'>> = () => {
-  const navigation = useNavigation();
+const CategoriesListScreen: React.FC<CategoriesStackScreenProps<'CategoriesList'>> = ({ navigation }) => {
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
