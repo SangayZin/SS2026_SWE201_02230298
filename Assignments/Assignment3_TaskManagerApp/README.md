@@ -1,6 +1,6 @@
 # TaskManager
 
-TaskManager is a single-domain CRUD mobile app built with Expo and React Native for SWE201 Assignment 3. It manages tasks through a REST API and includes a lightweight authentication flow, category filtering, form validation, persistent session state, and loading/error handling.
+TaskManager is a single-domain CRUD mobile app built with Expo and React Native. It manages tasks through a REST API and includes a lightweight authentication flow, category filtering, form validation, persistent session state, and loading/error handling.
 
 ## Domain
 
