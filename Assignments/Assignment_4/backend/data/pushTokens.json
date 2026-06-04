@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "token": "ExponentPushToken[test123]",
+      "deviceId": "test-device-1",
+      "registeredAt": "2026-06-04T15:36:21.532Z"
+    },
+    {
+      "token": "ExponentPushToken[YUtn9vM7gXjdOEQrxlCgMT]",
+      "deviceId": "device-1780589076078",
+      "registeredAt": "2026-06-04T17:09:54.961Z"
+    },
+    {
+      "token": "ExponentPushToken[n9k3LcOMdKCA8_VjQyQzFs]",
+      "deviceId": "device-1780590025977",
+      "registeredAt": "2026-06-04T16:19:29.759Z"
+    }
+  ]
+}

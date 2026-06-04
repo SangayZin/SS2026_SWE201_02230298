@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "TaskReminder",
+    "slug": "task-reminder",
+    "sdkVersion": "54.0.0",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "android": {
+      "permissions": [
+        "NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM"
+      ],
+      "package": "com.sangay.x98.taskreminder"
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#ffffff",
+      "androidMode": "default"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e2aeea8-8b18-4be5-9716-fd9a6fa098ed"
+      }
+    },
+    "owner": "sangay.98"
+  }
+}
